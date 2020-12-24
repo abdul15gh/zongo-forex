@@ -1,0 +1,35 @@
+
+body{
+	display: flex;
+	background-color: lightblue;
+}
+
+#rate {
+	width: 300px;
+	height: 300px;
+	border:2px solid #666;
+	padding: 40px;
+	text-align: center;
+	border-radius: 20px;
+	margin: auto;
+}
+
+select, input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+#output{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+input[type=submit]{
+	border:none;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
